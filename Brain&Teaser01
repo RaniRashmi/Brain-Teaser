@@ -1,0 +1,34 @@
+Problem 1: We have 20 bottles of pills.19 bottles have 1.0 gram pills, but on has pills of weight 1.1 grams. Given a scale that provides an exact measurement, How would you find the heavy bottle.
+
+
+Problem Explanation:
+
+
+       We h ave 20 bottles which contains so may pills
+       19 bottles have 1.0 gram pills that means each pill is of weight 1 gram in 19 bottles
+       while 20th bottle have 1.1 grams pills that means each pill is of weight 1.1 gram.
+
+Note:
+
+    we can weight only once.Now how will find the heavy bottle.
+
+Problem Solution:
+
+    take the one pill from one bottle,two pills from second bottle,three pills from third bottle , fours pills from forth bottle so on till the 20 pill from 20th bottle.
+    suppose if  all the bottle contain 1 gram pill than total sum of pills will be
+        1+2+3+4.............+20
+
+                     sum of added pills weight= n(n+1)/2
+
+                                                              =20(20+1)/2
+
+                                                             = 210 grams
+
+
+    but one bottle have pills of 1.1 gram
+    so if the pill with 1.1 gram from bottle 1  then total sum of pills will 210.1. Because we have only take 1 pill from  bottle 1.Means bottle contain pills of 1.1 gram is bottle 1
+    so if the pill with 1.1 gram from bottle 2 then total sum of pills will 210.2. Because we have only take 2 pill from bottle 2.Means bottle contain pills of 1.1 gram is bottle 2
+    so if the pill with 1.1 gram from bottle 3 then total sum of pills will 210.3. Because we have only take 3 pill from bottle 3.Means bottle contain pills of 1.1 gram is bottle 3
+    so on till the bottle 20...we see.
+
+
